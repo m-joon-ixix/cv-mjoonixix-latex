@@ -104,6 +104,9 @@
 %indentation is zero
 \setlength{\parindent}{0mm}
 
+% to prevent page breaks at certain points
+\usepackage{needspace}
+
 %----------------------------------------------------------------------------------------
 %	TABLE /ARRAY DEFINITIONS
 %---------------------------------------------------------------------------------------- 
@@ -242,19 +245,19 @@
 % param 3:	institution (where did you work / study)
 % param 4:	list of paragraphs
 %
-\newcommand{\cvevent}[4]
+\newcommand{\cvevent}[5]
 {
 
-\begin{tabular*}{1\textwidth}{p{13.6cm}  x{3.9cm}}
-	\textbf{#2} - \textcolor{bgcol}{#3} &   \vspace{2.5pt}\textcolor{sectcol}{#1}
+\begin{tabular*}{1\textwidth}{p{13.6cm}x{3.9cm}}
+	\textbf{#1} \newline \textcolor{bgcol}{#2} &
+	\hfill \textcolor{sectcol}{#3} \newline \mbox{\textcolor{bgcol}{#4}}
 \end{tabular*}
 
-\vspace{-8pt}
 \textcolor{softcol}{\hrule}
 \vspace{6pt}
 
-	\foreach \desc in {#4}{
-		$\cdot$ \desc\\[3pt]
+	\foreach \desc in {#5}{
+		\hspace*{1mm} $\cdot$ \desc\\[3pt]
 	}
 	
 \vspace{3pt}
@@ -335,9 +338,8 @@
 %---------------------------------------------------------------------------------------
 %	META SECTION
 %----------------------------------------------------------------------------------------
-\metasection{Seoul, South Korea}{\textbf{Status:} Undergraduate Student majoring Computer Science \& Engineering}
 \metasection{\href{https://m-joon-ixix.github.io}{m-joon-ixix.github.io}}{\textbf{Affiliation:} Seoul National University}
-\metasection{minjoonchoi08@gmail.com}{\textbf{Fields:} Language Models, Software Engineering, Backend Development}\vspace{-2pt}
+\metasection{minjoonchoi08@gmail.com}{\textbf{Status:} Undergraduate Student majoring Computer Science \& Engineering}
 \textcolor{softcol}{\hrule}
 \vspace{6pt}
 
@@ -346,14 +348,10 @@
 %---------------------------------------------------------------------------------------
 %	SUMMARY
 %----------------------------------------------------------------------------------------
-\vspace{3pt}
-\cvsection{Summary}
+\cvsection{Interests}
 \cvcontents{
-	{Senior undergraduate student majoring Computer Science at Seoul National University},
-	{Interested in disclosing the behavior of language models, especially when facing external knowledge},
-	{3 years of professional experience as a software developer at Dunamu, a Korean Fin-Tech corporation}
+	{Behavior \& Robustness of Language Models, Knowledge Aware Language Models, Software Design}
 }
-
 
 %============================================================================%
 %
@@ -365,57 +363,102 @@
 %	EDUCATION SECTION
 %--------------------------------------------------------------------------------------
 \cvsection{Education}
+\vspace{3pt}
 
-\cvevent{Mar. 2019 - present}{Candidate for B.S. in Computer Science}{Seoul National University}{
-	{GPA: 4.01/4.30, 3.86/4.00}
+\cvevent{Seoul National University}{Candidate for B.S. in Computer Science}{Mar. 2019 - present}{Seoul, Korea}{
+	{GPA: 4.01/4.30 (3.86/4.00)},
+	{GPA for CS Major Courses: 4.10/4.30}
 }
 
+\cvevent{University of Washington}{Exchange Student}{starting Mar. 2025}{Seattle, WA}{}
+
+\cvevent{Hana Academy Seoul}{High School Diploma}{Mar. 2015 - Feb. 2018}{Seoul, Korea}{}
+
+\vspace{6pt}
 
 %---------------------------------------------------------------------------------------
-%	EXPERIENCE
+%	PROFESSIONAL EXPERIENCE
 %----------------------------------------------------------------------------------------
-\cvsection{Experience}
+\cvsection{Professional Experience}
+\vspace{3pt}
 
-\cvevent{Jun. 2024 - present}{Research Intern}{Intelligent Data Systems Lab, SNU}{
-	{Advisor: Prof. Sang-goo Lee, Department of Computer Science and Engineering, SNU},
-	{Performing research on language models' behaviors in knowledge conflicting conditions}
+\cvevent{Dunamu Inc.}
+{Software Developer / Stockplus Backend-Team}
+{Mar. 2021 - Feb. 2024}
+{Seoul, Korea}
+{
+	{Management of 600K MAU servers running on Ruby On Rails \& Kotlin Spring},
+	{Led the team on managing user asset data, financial news contents},
+	{Implementation of robust micro-service server architectures},
+	{Partial management of MySQL databases \& Kubernetes infrastructure}
 }
 
-%\textcolor{softcol}{\hrule}
+%---------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsection{Research Experience}
+\vspace{3pt}
 
-%
-\cvevent{Mar. 2024 - May. 2024}{Undergraduate Research Assistant}{Visual Computing Lab, SNU}{
+\cvevent{Intelligent Data Systems Lab}
+{Research Intern}
+{Jun. 2024 - present}
+{Seoul National University}
+{
+	{Advisor: Prof. Sang-goo Lee, Department of Computer Science and Engineering, SNU},
+	{Alignment of language models to better handle knowledge conflicting or irrelevant external information}
+}
+
+\cvevent{Visual Computing Lab}
+{Undergraduate Research Assistant}
+{Mar. 2024 - May. 2024}
+{Seoul National University}
+{
 	{Advisor: Prof. Hanbyul Joo, Department of Computer Science and Engineering, SNU},
 	{Visualized flawed segments, added annotation to Parahome motion capture data}
 }
 
-%\textcolor{softcol}{\hrule}
+%---------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE
+%----------------------------------------------------------------------------------------
+\cvsection{Teaching Experience}
+\vspace{3pt}
 
-%
-\cvevent{Mar. 2021 - Feb. 2024}{Software Developer / Stockplus Backend-Team}{Dunamu Inc.}{
-	{Management of 600K MAU servers running on Ruby On Rails \& Kotlin Spring},
-	{Led the team on managing user asset data, financial news contents},
-	{Significant contribution on the implementation of robust micro-service architectures},
-	{Partial management of MySQL databases \& Kubernetes infrastructure}
+\cvevent{Database Systems}
+{Undergraduate Teaching Assistant}
+{Fall 2024}
+{M1522.001800 (CSE)}
+{
+	{Instructor: Prof. Sang-goo Lee, Department of Computer Science and Engineering, SNU},
+	{Arranging in-class quiz sessions, Q\&A on project assignments}
 }
-
 
 %---------------------------------------------------------------------------------------
 %	HONORS & AWARDS
 %--------------------------------------------------------------------------------------
+\needspace{5\baselineskip} % prevent page breaks here
+
 \cvsection{Honors \& Awards}
+\vspace{3pt}
 
-\cvevent{Fall 2023 - present}{Semiconductor Specialized University Scholarship}{Seoul National University}{
-	{Presented by Korea Institute for Advancement of Technology \& Ministry of Education, Republic of Korea}
-}
+\cvevent{Korea \& USA Advanced Field Student Exchange Funding Scholarship}
+{Presented by Korea Institute for Advancement of Technology}
+{Spring 2025}
+{Financial Aid}
+{}
 
-%\textcolor{softcol}{\hrule}
+\cvevent{Semiconductor Specialized University Scholarship}
+{Presented by Korea Institute for Advancement of Technology \& Ministry of Education}
+{Fall 2023 - present}
+{Academic Incentives}
+{}
 
-%
-\cvevent{Fall 2020 - present}{Academic Scholarship}{Seoul National University}{
-	{Presented by Seoul National University Office of Student Affairs}
-}
+\cvevent{Academic Scholarship}
+{Presented by Seoul National University Office of Student Affairs}
+{Fall 2020 - present}
+{Tuition Fees}
+{}
 
+\vspace{6pt}
 
 %---------------------------------------------------------------------------------------
 %	TECHNICAL SKILLS
@@ -423,9 +466,10 @@
 \cvsection{Technical Skills}
 
 \cvcontents{
-	{Programming: Python, Ruby, Java, Kotlin, C, C++, MySQL, R, OCaml}
+	{Programming: Python, Ruby, Java, Kotlin, C, C\#, C++, MySQL, R, OCaml, LaTeX},
+	{Frameworks: Spring, Ruby on Rails, Pytorch, Pandas, Numpy},
+	{Tools: Git, Notion, Unity, Blender}
 }
-
 
 %---------------------------------------------------------------------------------------
 %	LANGUAGES
