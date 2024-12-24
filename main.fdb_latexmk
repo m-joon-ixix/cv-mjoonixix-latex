@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1731425181.12533 "/Users/mjoonixix/Develop/cv-mjoonixix-latex/main.tex" "main.pdf" "main" 1731425181.84788 0
-  "/Users/mjoonixix/Develop/cv-mjoonixix-latex/main.tex" 1731425180.92101 15578 59534933c070125258ad028ababb08f1 ""
+["pdflatex"] 1735023176.84267 "/Users/mjoonixix/Develop/cv-mjoonixix-latex/main.tex" "main.pdf" "main" 1735023177.59479 0
+  "/Users/mjoonixix/Develop/cv-mjoonixix-latex/main.tex" 1735023176.65363 15636 fb4f1cddfa5a602c73ec91279f3b5f31 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc" 1710106625 2956 e1fccf4917ff205596489dab079ad56f ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/raleway/a_yqxcf3.enc" 1710106625 3099 96ea04418bfcf989c5380b59031fa39d ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/fontname/texfonts.map" 1710106625 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -173,9 +173,9 @@
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xkeyval/xkeyval.sty" 1710106625 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/web2c/texmf.cnf" 1710106625 41652 e14926ab86fde7902cad99d9eeaa5ca5 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1710106625 8221880 586024644079ee3bb0c221d6d52d1611 ""
-  "main.aux" 1731425181.76905 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "main.out" 1731425181.59422 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1731425180.92101 15578 59534933c070125258ad028ababb08f1 ""
+  "main.aux" 1735023177.51371 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
+  "main.out" 1735023177.30268 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1735023176.65363 15636 fb4f1cddfa5a602c73ec91279f3b5f31 ""
   (generated)
   "main.aux"
   "main.log"
