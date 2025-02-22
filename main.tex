@@ -279,6 +279,15 @@
 \vspace{3pt}
 }
 
+\newcommand{\cvcontentswobullet}[1]
+{
+\foreach \desc in {#1}{
+	\desc\\[6pt]
+}
+	
+\vspace{3pt}
+}
+
 %----------------------------------------------------------------------------------------
 % CUSTOM STRUT FOR EMPTY BOXES
 %----------------------------------------- -----------------------------------------------
@@ -349,7 +358,7 @@
 %	SUMMARY
 %----------------------------------------------------------------------------------------
 \cvsection{Interests}
-\cvcontents{
+\cvcontentswobullet{
 	{Behavior \& Robustness of Language Models, Knowledge Aware Language Models, Software Design}
 }
 
@@ -377,6 +386,14 @@
 \vspace{6pt}
 
 %---------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+\cvsection{Publications}
+\cvcontentswobullet{
+	{Youna Kim, \textbf{Minjoon Choi}, Sungmin Cho, Hyuhng Joon Kim, Sang-goo Lee, Taeuk Kim. "Reliability Across Parametric and External Knowledge: Understanding Knowledge Handling in LLMs." arXiv preprint. 2025. [\href{https://arxiv.org/abs/2502.13648}{paper}] \textbf{Submitted to ARR 2025.}}
+}
+
+%---------------------------------------------------------------------------------------
 %	PROFESSIONAL EXPERIENCE
 %----------------------------------------------------------------------------------------
 \cvsection{Professional Experience}
@@ -401,7 +418,7 @@
 
 \cvevent{Intelligent Data Systems Lab}
 {Undergraduate Research Assistant}
-{Jun. 2024 - present}
+{Jun. 2024 - Feb. 2025}
 {Seoul National University}
 {
 	{Advisor: Prof. Sang-goo Lee, Department of Computer Science and Engineering, SNU},
