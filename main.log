@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  20 APR 2025 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  13 MAY 2025 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -970,7 +970,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  84i,11n,93p,480b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (2 pages, 61309 bytes).
+Output written on main.pdf (2 pages, 61314 bytes).
 PDF statistics:
  43 PDF objects out of 1000 (max. 8388607)
  31 compressed objects within 1 object stream
