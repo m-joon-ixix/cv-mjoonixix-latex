@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1751482113.9862 "/Users/mjoonixix/Develop/cv-mjoonixix-latex/new/main.tex" "main.pdf" "main" 1751482114.61897 0
-  "/Users/mjoonixix/Develop/cv-mjoonixix-latex/new/main.tex" 1751482113.13697 14346 92b8858fb5ed355bdec751f6a8c55436 ""
+["pdflatex"] 1751832209.42693 "/Users/mjoonixix/Develop/cv-mjoonixix-latex/formal-theme/main.tex" "main.pdf" "main" 1751832210.08927 0
+  "/Users/mjoonixix/Develop/cv-mjoonixix-latex/formal-theme/main.tex" 1751832209.21069 14384 49763f5ce9982020be80edbea9aed214 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1710106625 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1710106625 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1710106625 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -117,8 +117,8 @@
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1710106625 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/web2c/texmf.cnf" 1710106625 41652 e14926ab86fde7902cad99d9eeaa5ca5 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1710106625 8221880 586024644079ee3bb0c221d6d52d1611 ""
-  "main.aux" 1751482114.52835 3221 177ff6658fbf8f8fe5b78cae0147868c "pdflatex"
-  "main.tex" 1751482113.13697 14346 92b8858fb5ed355bdec751f6a8c55436 ""
+  "main.aux" 1751832209.9964 3221 177ff6658fbf8f8fe5b78cae0147868c "pdflatex"
+  "main.tex" 1751832209.21069 14384 49763f5ce9982020be80edbea9aed214 ""
   (generated)
   "main.aux"
   "main.log"

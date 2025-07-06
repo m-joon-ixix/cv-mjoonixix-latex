@@ -1,7 +1,7 @@
-PWD /Users/mjoonixix/Develop/cv-mjoonixix-latex/new
+PWD /Users/mjoonixix/Develop/cv-mjoonixix-latex/formal-theme
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/web2c/texmf.cnf
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/mjoonixix/Develop/cv-mjoonixix-latex/new/main.tex
+INPUT /Users/mjoonixix/Develop/cv-mjoonixix-latex/formal-theme/main.tex
 OUTPUT main.log
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/article.cls
 INPUT /opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/base/article.cls
