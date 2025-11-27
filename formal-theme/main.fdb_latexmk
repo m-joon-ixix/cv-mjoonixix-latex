@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763057589.82647 "/Users/mjoonixix/Develop/cv-mjoonixix-latex/formal-theme/main.tex" "main.pdf" "main" 1763057590.51101 0
-  "/Users/mjoonixix/Develop/cv-mjoonixix-latex/formal-theme/main.tex" 1763057589.61193 18591 e95b6f1cbc8f111013a8b19f0e8d2e7e ""
+["pdflatex"] 1764226654.86945 "/Users/mjoonixix/Develop/cv-mjoonixix-latex/formal-theme/main.tex" "main.pdf" "main" 1764226655.55521 0
+  "/Users/mjoonixix/Develop/cv-mjoonixix-latex/formal-theme/main.tex" 1764226654.65677 18205 cc2b8d30b751964baf09cc7c16fe8707 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1710106625 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1710106625 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1710106625 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -21,7 +21,6 @@
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm" 1710106625 1304 32f22a15acc296b2a4e15698403dcb88 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm" 1710106625 11880 35fcf136a2198418dfc53c83e9e2a07f ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/lm/rm-lmbx12.tfm" 1710106625 11880 ea60d06924270684e6f852f3141c992b ""
-  "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/lm/rm-lmbxi10.tfm" 1710106625 17000 ee24f610e440d069ed0693c37a39a025 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm" 1710106625 11868 4f81e9b6033c032bdaf9884f4d7ef412 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm" 1710106625 11804 aefb10c002e6492c25236524a447f969 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm" 1710106625 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
@@ -35,7 +34,6 @@
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb" 1710106625 295323 d099723373a00cc17d5ae0c9738bb5b3 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb" 1710106625 121021 1bf809ce4a594679006bd72263eba59b ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb" 1710106625 116908 1fca96723793882c2e0160350c192fc8 ""
-  "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb" 1710106625 112766 bdd4fa8b13a0d7dd137624085bd31d40 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb" 1710106625 119235 f35b44530a1d90eb90fe15d9cba67ea0 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb" 1710106625 112593 fda2373ba4420af33949610de4c28fe8 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmri9.pfb" 1710106625 109598 cb570392cb143ca78182169795feed7a ""
@@ -119,8 +117,8 @@
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/tex/latex/xcolor/xcolor.sty" 1710106625 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/web2c/texmf.cnf" 1710106625 41652 e14926ab86fde7902cad99d9eeaa5ca5 ""
   "/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1710106625 8221880 586024644079ee3bb0c221d6d52d1611 ""
-  "main.aux" 1763057590.42569 3863 efec8fd49ccec562e6ce5304960d3325 "pdflatex"
-  "main.tex" 1763057589.61193 18591 e95b6f1cbc8f111013a8b19f0e8d2e7e ""
+  "main.aux" 1764226655.47525 3863 45179a02cc6ac80ebfd3b6fdb9f1c670 "pdflatex"
+  "main.tex" 1764226654.65677 18205 cc2b8d30b751964baf09cc7c16fe8707 ""
   (generated)
   "main.aux"
   "main.log"
