@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  2 APR 2026 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Homebrew) (preloaded format=pdflatex 2024.10.29)  16 APR 2026 20:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -495,17 +495,17 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [1
 
 {/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{/opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-Overfull \hbox (8.7118pt too wide) in paragraph at lines 421--422
+Overfull \hbox (8.7118pt too wide) in paragraph at lines 419--420
 []\OT1/lmr/m/n/10 Katelyn X. Mei, Yi-Li Hsu, $[]$, Zong-wan Cao, Chen-jun Xu, [],
  []
 
 
-Overfull \hbox (17.26677pt too wide) in paragraph at lines 447--448
+Overfull \hbox (17.26677pt too wide) in paragraph at lines 445--446
 []\OT1/lmr/m/n/10 Youna Kim, [], Sung-min Cho, Hyuhng Joon Kim, Sang-goo Lee, []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--448
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
 
  []
 
@@ -526,7 +526,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,413b,506s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmri9.pfb></opt/homebrew/Cellar/texlive/20240312_3/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (3 pages, 223772 bytes).
+Output written on main.pdf (3 pages, 223750 bytes).
 PDF statistics:
  124 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream
